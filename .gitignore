@@ -61,6 +61,14 @@ compile_commands.json
 # vcpkg
 vcpkg_installed/
 
+# Rust
+/target/
+**/target/
+Cargo.lock
+**/Cargo.lock
+**/*.rs.bk
+.cargo/
+
 # debug information files
 *.dwo
 
